@@ -17,7 +17,7 @@ int[] alternatingSums(int[] a) {
         if(i%2==0){
             team1+=a[i];
         }else{
-            team2=a[i];  
+            team2+=a[i];  
         }
     }
      int[] result = new int[]{team1,team2 }; 
